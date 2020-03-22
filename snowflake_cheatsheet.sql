@@ -2,6 +2,8 @@
 select * 
         , convert_timezone('America/New_York', current_timestamp()) as tstamp
         , concat(month(tstamp), '/', day(tstamp), '/', year(tstamp), ' ', hour(tstamp), ':', minute(tstamp)) as created_time
+        --> simpler way to extract
+        ,to_varchar(tstamp,'MM/DD/YYYY HH24:MI') as created_time_et
         from some_table
 
 --> Modify snowflake date-time to a format that Google Data Studio does not mess up
