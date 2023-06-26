@@ -1,7 +1,9 @@
-# Workflows
+## Statistical Workflows
 
-## Scripts demonstrating common workflows
+### Cross-validation 
 
-* `workflow_crossvalbootreg.R`: Generates a mock dataset with a continuous response variable and demonstrates 
-cross-validation for a linear regression with xgboost models
+* `workflow_crossvalbootreg.R`:
+
+    * Generates a mock dataset with a continuous response variable.
+    * Demonstrates the cross-validation procedure for a regression with xgboost models.
 
