@@ -1,7 +1,7 @@
-#------------------------------------------------------------------------------
-# Generate a mock dataset with a continuous response variable and demonstrate 
-# cross-validation for a linear regression with xgboost models
-#-----------------------------------------------------------------------------
+#----------------------------------------------------------------------------------
+# Generates a mock dataset with a continuous response variable.
+# Demonstrates the cross-validation procedure for a regression with xgboost models
+#----------------------------------------------------------------------------------
 # 
 # 
 #### Install packages if not installed already, and load libraries 
